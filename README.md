@@ -2,7 +2,7 @@
 
 # EN
 ## How to use?
-- Paste the contents of ``auto-battle.js`` into a new (https://www.tampermonkey.net/)[tampermonkey] or (https://violentmonkey.github.io/)[violentmonkey] userscript.
+- Paste the contents of ``auto-battle.js`` into a new [tampermonkey](https://www.tampermonkey.net/) or [violentmonkey](https://violentmonkey.github.io/) userscript.
 - Save the script
 - Go to ``https://key-drop.com/case-battle/list`` and refresh the page
 - The script should now work
@@ -16,7 +16,7 @@
 - **SLOT_TO_JOIN** - Set to the number of a slot you want to join (STARTS AT 0)
 
 # pl
-- Wklej zawartość pliku ``auto-battle.js`` do nowego skryptu we wtyczce (https://www.tampermonkey.net/)[tampermonkey] lub (https://violentmonkey.github.io/)[violentmonkey].
+- Wklej zawartość pliku ``auto-battle.js`` do nowego skryptu we wtyczce [tampermonkey](https://www.tampermonkey.net/) lub [violentmonkey](https://violentmonkey.github.io/).
 - Zapisz skrypt
 - Przejdź na ``https://key-drop.com/case-battle/list`` i odśwież stronę
 - Skrypt powinien już działać
