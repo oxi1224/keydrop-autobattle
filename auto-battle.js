@@ -9,11 +9,11 @@
 // ==/UserScript==
 
 const TARGETS = ['BEAST', 'TEETH', 'KICK', 'STACK', 'ADVANCE', 'ICE BLAST'];
-const BLACKLIST = ['TECH']; // Na przyszłość, dodaj tutaj jeżeli nie chcesz żeby dołączał do walki z taką skrzynią
-const MIN_CASES = 2; // Minimalna liczba skrzynek w walce
-const MIN_SPACES = 2; // Minimalna liczba miejsc w walce
+const BLACKLIST = ['TECH'];
+const MIN_CASES = 2;
+const MIN_SPACES = 2;
 const USER_AGENT = window.navigator.userAgent;
-const SLOT_TO_JOIN = null; // Ustaw na cyfre jezeli chcesz dolaczac wylacznie do tego miejsca, zaczyna sie od 0
+const SLOT_TO_JOIN = null;
 
 (async () => {
   while (true) {
@@ -22,7 +22,6 @@ const SLOT_TO_JOIN = null; // Ustaw na cyfre jezeli chcesz dolaczac wylacznie do
 
     for (const container of caseBattleContainers) {
       const names = [...container.querySelectorAll('p.line-clamp-2')].map(elm => elm.textContent);
-      // const price = container.querySelector('span').textContent;
       const spaceCount = container.querySelector('div.flex.flex-wrap').children.length;
       const joinBtn = container.querySelector('a.button');
       const btnText = joinBtn.textContent;
